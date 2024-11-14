@@ -45,14 +45,21 @@ public class VentaComputadoraApp {
         //System.out.println(computadoraAcer);
 
         //Creamos una orden
-        System.out.println();
         Orden orden1 = new Orden();
         orden1.agregarComputadora(computadoraLenovo);
         orden1.agregarComputadora(computadoraAcer);
         orden1.agregarComputadora(computadoraHP);
-        orden1.agregarComputadora(computadoraAsus);
-        orden1.agregarComputadora(computadoraDell);
         orden1.mostrarOrden();
+
+        Orden orden2 = new Orden();
+        orden2.agregarComputadora(computadoraAsus);
+        orden2.agregarComputadora(computadoraDell);
+        orden2.mostrarOrden();
+
+        Orden orden3 = new Orden();
+        orden3.agregarComputadora(computadoraAsus);
+        orden3.agregarComputadora(computadoraAcer);
+        orden3.mostrarOrden();
 
     }
 }

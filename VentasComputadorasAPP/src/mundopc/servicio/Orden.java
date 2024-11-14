@@ -19,6 +19,7 @@ public class Orden {
     }
 
     public void mostrarOrden() {
+        System.out.println();
         System.out.println("Orden #"+ idOrden);
         System.out.println("Total de computadoras: " + computadoras.size());
         computadoras.forEach(System.out::println);
